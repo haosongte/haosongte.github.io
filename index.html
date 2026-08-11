@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="China plastic auxiliary equipment manufacturer — energy-saving hopper dryers, granulators, auto loaders, metal separators, mixers, and chillers. Factory direct from Qingdao, Shandong. Serving injection molding, extrusion, and blow molding industries worldwide.">
+<meta name="keywords" content="plastic hopper dryer, energy saving dryer, plastic granulator, auto loader, metal separator, plastic mixer, industrial chiller, plastic auxiliary equipment, Qingdao, China">
+<meta property="og:title" content="Qingdao Haosongte Machinery Co., Ltd.">
+<meta property="og:description" content="Plastic auxiliary equipment manufacturer. Energy-saving dryers, crushers, loaders, mixers, chillers — factory direct, global shipping.">
+<meta property="og:type" content="website">
+<title>Haosongte Machinery — China Plastic Auxiliary Equipment Manufacturer</title>
+<style>
+  :root {
+    --primary: #1a5276;
+    --accent: #e67e22;
+    --bg: #f8f9fa;
+    --card: #fff;
+    --text: #2c3e50;
+    --text-light: #5d6d7e;
+    --border: #e0e0e0;
+    --radius: 8px;
+    --shadow: 0 2px 12px rgba(0,0,0,.08);
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+  header {
+    background: var(--primary);
+    color: #fff;
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,.15);
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .logo { font-size: 1.3rem; font-weight: 700; letter-spacing: .5px; }
+  .logo span { color: var(--accent); }
+  nav a {
+    color: rgba(255,255,255,.85);
+    text-decoration: none;
+    margin-left: 28px;
+    font-size: .95rem;
+    transition: color .2s;
+  }
+  nav a:hover { color: var(--accent); }
+
+  .hero {
+    background: linear-gradient(135deg, #1a5276 0%, #2471a3 50%, #2e86c1 100%);
+    color: #fff;
+    padding: 80px 0 60px;
+    text-align: center;
+  }
+  .hero h1 { font-size: 2.4rem; margin-bottom: 16px; line-height: 1.3; }
+  .hero h2 { font-size: 1.15rem; opacity: .9; max-width: 680px; margin: 0 auto 36px; font-weight: 400; }
+  .hero .tagline-row {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .hero .tag {
+    background: rgba(255,255,255,.15);
+    border: 1px solid rgba(255,255,255,.25);
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: .9rem;
+  }
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    padding: 14px 36px;
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background .2s, transform .1s;
+    border: none;
+    cursor: pointer;
+  }
+  .btn:hover { background: #d35400; transform: translateY(-1px); }
+  .btn-outline {
+    background: transparent;
+    border: 2px solid #fff;
+    margin-left: 12px;
+  }
+  .btn-outline:hover { background: rgba(255,255,255,.1); }
+
+  section { padding: 64px 0; }
+  section:nth-child(even) { background: #fff; }
+  .section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+    color: var(--primary);
+  }
+  .section-subtitle {
+    text-align: center;
+    color: var(--text-light);
+    margin-bottom: 48px;
+    font-size: 1rem;
+  }
+
+  /* About */
+  .about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 28px;
+    margin-top: 32px;
+  }
+  .about-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 32px 24px;
+    text-align: center;
+    box-shadow: var(--shadow);
+  }
+  .about-card .icon { font-size: 2.4rem; margin-bottom: 12px; }
+  .about-card h3 { font-size: 1.05rem; margin-bottom: 8px; }
+  .about-card p { font-size: .9rem; color: var(--text-light); }
+
+  /* Products */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 28px;
+  }
+  .product-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform .2s;
+  }
+  .product-card:hover { transform: translateY(-4px); }
+  .product-img {
+    height: 200px;
+    background: #e8ecf1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-size: .85rem;
+  }
+  .product-info { padding: 20px; }
+  .product-info h3 { font-size: 1.1rem; margin-bottom: 8px; }
+  .product-info .specs { font-size: .85rem; color: var(--text-light); margin-bottom: 12px; }
+  .product-info .specs span {
+    display: inline-block;
+    background: #eef2f7;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin: 2px 4px 2px 0;
+    font-size: .8rem;
+  }
+
+  /* Energy highlight */
+  .energy-banner {
+    background: #fef9e7;
+    border: 2px solid #f9e79f;
+    border-radius: var(--radius);
+    padding: 36px;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .energy-banner .big-num {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--accent);
+  }
+  .energy-banner p { color: var(--text-light); margin-top: 8px; font-size: 1rem; }
+
+  /* Why Us */
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+  }
+  .why-item {
+    text-align: center;
+    padding: 20px;
+  }
+  .why-item .num {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--primary);
+  }
+  .why-item .label { font-size: .9rem; color: var(--text-light); margin-top: 4px; }
+
+  /* Contact */
+  .contact-box {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 40px;
+    text-align: center;
+    box-shadow: var(--shadow);
+  }
+  .contact-box h3 { margin-bottom: 20px; }
+  .contact-box .whatsapp {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #25d366;
+    color: #fff;
+    padding: 14px 32px;
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: background .2s;
+  }
+  .contact-box .whatsapp:hover { background: #1ebe5b; }
+  .contact-box .email {
+    margin-top: 20px;
+    color: var(--text-light);
+    font-size: .95rem;
+  }
+  .contact-box .email a { color: var(--primary); font-weight: 600; }
+
+  footer {
+    background: var(--primary);
+    color: rgba(255,255,255,.7);
+    text-align: center;
+    padding: 24px;
+    font-size: .85rem;
+  }
+
+  @media (max-width: 768px) {
+    .hero h1 { font-size: 1.6rem; }
+    .hero h2 { font-size: 1rem; }
+    .btn-outline { margin-left: 0; margin-top: 10px; }
+    nav { display: none; }
+    section { padding: 40px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="logo">Haosongte<span>Machinery</span></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#why-us">Why Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Plastic Auxiliary Equipment — Engineered for Efficiency</h1>
+    <h2>Energy-saving hopper dryers, granulators, auto loaders, metal separators, mixers, and chillers. Factory-direct from Qingdao, China — built for injection molding, extrusion, and blow molding production lines worldwide.</h2>
+    <div class="tagline-row">
+      <span class="tag">⚡ Energy-Saving Dryers</span>
+      <span class="tag">🔧 Granulators & Crushers</span>
+      <span class="tag">📦 Auto Loaders</span>
+      <span class="tag">🧲 Metal Separators</span>
+      <span class="tag">🔄 Mixers</span>
+      <span class="tag">❄️ Chillers</span>
+    </div>
+    <div style="margin-top:36px;">
+      <a href="#contact" class="btn">Get a Quote Now</a>
+      <a href="#products" class="btn btn-outline">View Products</a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <h2 class="section-title">About Haosongte</h2>
+    <p class="section-subtitle">Plastic auxiliary equipment specialist based in Qingdao, Shandong</p>
+    <div class="about-grid">
+      <div class="about-card">
+        <div class="icon">🏭</div>
+        <h3>Qingdao Manufacturing Base</h3>
+        <p>Headquartered in Qingdao, Shandong Province — a major plastic machinery manufacturing cluster in China. We design, manufacture, and ship directly from our factory.</p>
+      </div>
+      <div class="about-card">
+        <div class="icon">🌍</div>
+        <h3>Global Export</h3>
+        <p>Supplying injection molding, extrusion, and blow molding factories across Southeast Asia, Middle East, Central Asia, Africa, and Australia.</p>
+      </div>
+      <div class="about-card">
+        <div class="icon">⚡</div>
+        <h3>Energy-Saving Focus</h3>
+        <p>Our hopper dryers feature stainless steel construction, insulation layers, finned heating elements, and PID intelligent temperature control — reducing electricity consumption by 30–40%.</p>
+      </div>
+      <div class="about-card">
+        <div class="icon">✅</div>
+        <h3>Quality Assurance</h3>
+        <p>Every unit undergoes a 3-stage inspection before shipment. We stand behind our equipment with spare parts availability and responsive after-sales support.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="products">
+  <div class="container">
+    <h2 class="section-title">Our Product Line</h2>
+    <p class="section-subtitle">Complete auxiliary solutions for plastic processing factories</p>
+
+    <div class="energy-banner">
+      <div class="big-num">30–40%</div>
+      <p>average electricity savings with our energy-saving hopper dryers — the flagship product trusted by plastic manufacturers for reducing production costs</p>
+    </div>
+
+    <div class="product-grid">
+
+      <div class="product-card">
+        <div class="product-img">📷 Product Image Here</div>
+        <div class="product-info">
+          <h3>Energy-Saving Hopper Dryer</h3>
+          <div class="specs">
+            <span>50–800 KG</span><span>Stainless Steel</span><span>PID Control</span>
+          </div>
+          <p style="font-size:.9rem;color:var(--text-light);">Direct replacement for standard hopper dryers. Insulated body, finned heating tubes, optimized airflow — 30%+ energy savings. Prevents material degradation and improves workshop environment by reducing surface heat.</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img">📷 Product Image Here</div>
+        <div class="product-info">
+          <h3>Beside-the-Press Granulator</h3>
+          <div class="specs">
+            <span>Low-Speed</span><span>Medium-Speed</span><span>Heavy-Duty</span>
+          </div>
+          <p style="font-size:.9rem;color:var(--text-light);">Low-noise granulators for instant sprue/runner recycling beside injection molding machines. Also available: heavy-duty crushers for large scrap, lumps, and purgings.</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img">📷 Product Image Here</div>
+        <div class="product-info">
+          <h3>Auto Loader (Vacuum Conveyor)</h3>
+          <div class="specs">
+            <span>300G–900G</span><span>Separate Type</span><span>Powder Compatible</span>
+          </div>
+          <p style="font-size:.9rem;color:var(--text-light);">Automatic material conveying from storage to machine hopper. Separate-type design for easy maintenance. Available in standard and high-capacity models. Powder loader variant for fine materials.</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img">📷 Product Image Here</div>
+        <div class="product-info">
+          <h3>Metal Separator</h3>
+          <div class="specs">
+            <span>Standard</span><span>Intelligent</span><span>High Sensitivity</span>
+          </div>
+          <p style="font-size:.9rem;color:var(--text-light);">Detects and removes ferrous and non-ferrous metal contaminants from plastic material flow. Protects injection molding screws, molds, and final product quality.</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img">📷 Product Image Here</div>
+        <div class="product-info">
+          <h3>Plastic Mixer / Blender</h3>
+          <div class="specs">
+            <span>Vertical</span><span>Stainless Steel</span><span>25–500 KG</span>
+          </div>
+          <p style="font-size:.9rem;color:var(--text-light);">Vertical mixing machines for blending virgin material, regrind, masterbatch, and additives. Uniform mixing with short cycle times. Stainless steel construction resists corrosion.</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img">📷 Product Image Here</div>
+        <div class="product-info">
+          <h3>Industrial Chiller</h3>
+          <div class="specs">
+            <span>Air-Cooled</span><span>Water-Cooled</span><span>5–40 HP</span>
+          </div>
+          <p style="font-size:.9rem;color:var(--text-light);">Reliable process cooling for injection molding, extrusion, and blow molding lines. Stable temperature control extends mold life and ensures consistent product quality.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="why-us">
+  <div class="container">
+    <h2 class="section-title">Why Choose Haosongte</h2>
+    <p class="section-subtitle">Backed by Qingdao's plastic machinery supply chain</p>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="num">20+</div>
+        <div class="label">Years Industry Experience</div>
+      </div>
+      <div class="why-item">
+        <div class="num">30–40%</div>
+        <div class="label">Energy Savings (Dryer)</div>
+      </div>
+      <div class="why-item">
+        <div class="num">3-Step</div>
+        <div class="label">Quality Inspection Before Shipment</div>
+      </div>
+      <div class="why-item">
+        <div class="num">7×24</div>
+        <div class="label">Technical Support</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2 class="section-title">Get in Touch</h2>
+    <p class="section-subtitle">Tell us your production requirements — we respond within 24 hours</p>
+    <div class="contact-box">
+      <h3>Contact us on WhatsApp</h3>
+      <a href="https://wa.me/8618063310943" class="whatsapp" target="_blank" rel="noopener">
+        💬 Chat on WhatsApp
+      </a>
+      <p class="email">
+        Or email: <a href="mailto:sales@haosongte.com">sales@haosongte.com</a>
+      </p>
+      <p style="margin-top:16px;font-size:.85rem;color:var(--text-light);">
+        📍 Qingdao, Shandong Province, China<br>
+        🏭 Plastic Auxiliary Equipment Manufacturing Base
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2024 Qingdao Haosongte Machinery Co., Ltd. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
